@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; 
+}
+
+.container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #264653; 
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color:#f4a261;
+    border-radius: 50%; 
+}
+
+.top {
+    top: -50px;
+    left: 50px;
+}
+
+.right {
+    top: 50px;
+    left: 150px;
+}
+
+.bottom {
+    top: 150px;
+    left: 50px;
+}
+
+.left {
+    top: 50px;
+    left: -50px;
+}
